@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: rgb(227, 152, 152); */
+    text-align: center;
+     background-image: linear-gradient(to left, #e25c5c, #dc945d);
+}
+h1{
+    margin-top:5vmin;
+    font-family:cursive;
+    color: aliceblue;
+    text-decoration:line-through;
+    
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color:#ec6f6f;
+    background-color: aliceblue;
+}
+.box:hover{
+    background-color: rgb(92, 183, 218);
+    color:aliceblue;
+}
+
+#reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-family: cursive;
+    border:none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3); 
+}
+#reset:hover{
+    background-color: rgb(134, 50, 50);
+    color:aliceblue;
+}
+#newgame{
+    margin-top:2rem;
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-family: cursive;
+    border:none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3); 
+}
+#newgame:hover{
+    background-color: rgb(38, 109, 47);
+    color:aliceblue;
+}
+#msg{
+    color: aliceblue;
+    font-size: 5vmin;
+    font-family: cursive;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:2rem;
+}
+.hide{
+    display:none;
+}
+
+.o-mark {
+    color: rgb(130, 130, 229);     /* O will be blue */
+    font-weight: bold;
+}
+
+.x-mark {
+    color: rgb(207, 128, 128);      /* X will be red */
+    font-weight: bold;
+}
+span{
+    color:rgb(130, 130, 229);
+}
